@@ -1,7 +1,7 @@
 import numpy as np
 
 class Convolution:
-    """ Fully connected layer """
+    """ Convolution layer """
     
     def __init__(self, image_shape, kernel_size, n_kernel, step_size = 3, learning_rate = 1e-2):
         """Creates and initializes weights / biases of layer
